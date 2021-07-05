@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo Da Cobrinha</title>
+    <link rel="icon" sizes="192x192" href="./img/cobrinha.png">
+    <link rel="stylesheet" href="/style/man.css">
+   
+</head>
+<body>
+    
+    <h1>JOGO DA COBRINHA!</h1>
+
+    <div class="btnPlacar">
+        <i class="fas fa-trophy reset" id="placar"> Placlar: 0</i>
+    </div>
+    <canvas class="fundoSnake" id="snake" width="600" height="530"></canvas>
+    
+    <div>
+        
+        <button class="btnReniciar" type="button" onclick="reset()">
+            <i class="fas fa-power-off"></i>
+            RESETAR
+        </button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
